@@ -189,7 +189,6 @@ html.lenis body {
 /* avatar com anel dourado */
 .avatar-ring {
   display: block;
-  overflow: hidden;
   border-radius: 9999px;
   padding: 3px;
   background: linear-gradient(135deg, var(--cor-acento), rgba(242, 179, 44, 0.25));
@@ -199,9 +198,7 @@ html.lenis body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 28%;
-  transform: scale(1.9);
-  transform-origin: 50% 30%;
+  object-position: 50% 50%;
   border-radius: 9999px;
   border: 2px solid var(--cor-fundo);
   background: var(--cor-superficie);
